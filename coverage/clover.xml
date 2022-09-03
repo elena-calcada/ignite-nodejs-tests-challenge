@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1662070459649" clover="3.2.0">
-  <project timestamp="1662070459649" name="All files">
-    <metrics statements="468" coveredstatements="458" conditionals="83" coveredconditionals="79" methods="32" coveredmethods="29" elements="583" coveredelements="566" complexity="0" loc="468" ncloc="468" packages="12" files="18" classes="18"/>
-    <package name="config">
+<coverage generated="1662221837110" clover="3.2.0">
+  <project timestamp="1662221837110" name="All files">
+    <metrics statements="1020" coveredstatements="1002" conditionals="159" coveredconditionals="155" methods="65" coveredmethods="61" elements="1244" coveredelements="1218" complexity="0" loc="1020" ncloc="1020" packages="22" files="41" classes="41"/>
+    <package name="src">
+      <metrics statements="34" coveredstatements="28" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <file name="app.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/app.ts">
+        <metrics statements="34" coveredstatements="28" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="17" type="stmt"/>
+        <line num="22" count="17" type="stmt"/>
+        <line num="23" count="17" type="stmt"/>
+        <line num="24" count="17" type="stmt"/>
+        <line num="25" count="17" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.config">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="auth.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/config/auth.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -16,29 +56,98 @@
         <line num="8" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="modules.statements.entities">
-      <metrics statements="50" coveredstatements="50" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="1"/>
-      <file name="Statement.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/entities/Statement.ts">
-        <metrics statements="50" coveredstatements="50" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="1"/>
+    <package name="src.database">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/database/index.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="cond" truecount="0" falsecount="1"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.database.migrations">
+      <metrics statements="106" coveredstatements="102" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="4"/>
+      <file name="1616681812086-users-table.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/database/migrations/1616681812086-users-table.ts">
+        <metrics statements="45" coveredstatements="43" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
         <line num="14" count="6" type="stmt"/>
         <line num="15" count="6" type="stmt"/>
         <line num="16" count="6" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="45" count="6" type="stmt"/>
+      </file>
+      <file name="1616682561481-statements-table.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/database/migrations/1616682561481-statements-table.ts">
+        <metrics statements="61" coveredstatements="59" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
         <line num="20" count="6" type="stmt"/>
         <line num="21" count="6" type="stmt"/>
         <line num="22" count="6" type="stmt"/>
@@ -64,15 +173,186 @@
         <line num="42" count="6" type="stmt"/>
         <line num="43" count="6" type="stmt"/>
         <line num="44" count="6" type="stmt"/>
-        <line num="45" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="46" count="7" type="stmt"/>
-        <line num="47" count="7" type="stmt"/>
-        <line num="48" count="7" type="stmt"/>
-        <line num="49" count="7" type="stmt"/>
+        <line num="45" count="6" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
+        <line num="48" count="6" type="stmt"/>
+        <line num="49" count="6" type="stmt"/>
         <line num="50" count="6" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="54" count="6" type="stmt"/>
+        <line num="55" count="6" type="stmt"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="61" count="6" type="stmt"/>
       </file>
     </package>
-    <package name="modules.statements.repositories.in-memory">
+    <package name="src.modules.statements.entities">
+      <metrics statements="50" coveredstatements="50" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="Statement.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/entities/Statement.ts">
+        <metrics statements="50" coveredstatements="50" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="22" count="12" type="stmt"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+        <line num="25" count="12" type="stmt"/>
+        <line num="26" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="12" type="stmt"/>
+        <line num="28" count="12" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="31" count="12" type="stmt"/>
+        <line num="32" count="12" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
+        <line num="34" count="12" type="stmt"/>
+        <line num="35" count="12" type="stmt"/>
+        <line num="36" count="12" type="stmt"/>
+        <line num="37" count="12" type="stmt"/>
+        <line num="38" count="12" type="stmt"/>
+        <line num="39" count="12" type="stmt"/>
+        <line num="40" count="12" type="stmt"/>
+        <line num="41" count="12" type="stmt"/>
+        <line num="42" count="12" type="stmt"/>
+        <line num="43" count="12" type="stmt"/>
+        <line num="44" count="12" type="stmt"/>
+        <line num="45" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="46" count="23" type="stmt"/>
+        <line num="47" count="23" type="stmt"/>
+        <line num="48" count="23" type="stmt"/>
+        <line num="49" count="23" type="stmt"/>
+        <line num="50" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.statements.mappers">
+      <metrics statements="28" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="1"/>
+      <file name="BalanceMap.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/mappers/BalanceMap.ts">
+        <metrics statements="28" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="0" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="0" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.statements.repositories">
+      <metrics statements="64" coveredstatements="64" conditionals="13" coveredconditionals="13" methods="4" coveredmethods="4"/>
+      <file name="StatementsRepository.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/repositories/StatementsRepository.ts">
+        <metrics statements="64" coveredstatements="64" conditionals="13" coveredconditionals="13" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="32" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="6" type="cond" truecount="3" falsecount="0"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="43" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="4" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="55" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="63" count="4" type="stmt"/>
+        <line num="64" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.statements.repositories.in-memory">
       <metrics statements="51" coveredstatements="51" conditionals="14" coveredconditionals="14" methods="4" coveredmethods="4"/>
       <file name="InMemoryStatementsRepository.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/repositories/in-memory/InMemoryStatementsRepository.ts">
         <metrics statements="51" coveredstatements="51" conditionals="14" coveredconditionals="14" methods="4" coveredmethods="4"/>
@@ -129,208 +409,23 @@
         <line num="51" count="8" type="stmt"/>
       </file>
     </package>
-    <package name="modules.statements.useCases.createStatement">
-      <metrics statements="57" coveredstatements="57" conditionals="15" coveredconditionals="15" methods="4" coveredmethods="4"/>
-      <file name="CreateStatementError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/createStatement/CreateStatementError.ts">
-        <metrics statements="15" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-      </file>
-      <file name="CreateStatementUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/createStatement/CreateStatementUseCase.ts">
-        <metrics statements="42" coveredstatements="42" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+    <package name="src.modules.statements.useCases.createStatement">
+      <metrics statements="87" coveredstatements="87" conditionals="20" coveredconditionals="20" methods="6" coveredmethods="6"/>
+      <file name="CreateStatementController.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/createStatement/CreateStatementController.ts">
+        <metrics statements="30" coveredstatements="30" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="8" type="stmt"/>
-        <line num="12" count="8" type="stmt"/>
-        <line num="13" count="8" type="stmt"/>
-        <line num="14" count="8" type="stmt"/>
-        <line num="15" count="8" type="stmt"/>
-        <line num="16" count="8" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="18" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="9" type="stmt"/>
-        <line num="21" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="8" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="26" count="3" type="stmt"/>
-        <line num="27" count="9" type="stmt"/>
-        <line num="28" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="9" type="stmt"/>
-        <line num="32" count="9" type="stmt"/>
-        <line num="33" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="34" count="7" type="stmt"/>
-        <line num="35" count="7" type="stmt"/>
-        <line num="36" count="7" type="stmt"/>
-        <line num="37" count="7" type="stmt"/>
-        <line num="38" count="7" type="stmt"/>
-        <line num="39" count="9" type="stmt"/>
-        <line num="40" count="9" type="stmt"/>
-        <line num="41" count="9" type="stmt"/>
-        <line num="42" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="modules.statements.useCases.getBalance">
-      <metrics statements="48" coveredstatements="48" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3"/>
-      <file name="GetBalanceError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getBalance/GetBalanceError.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-      </file>
-      <file name="GetBalanceUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getBalance/GetBalanceUseCase.ts">
-        <metrics statements="41" coveredstatements="41" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="30" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
-        <line num="40" count="2" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="modules.statements.useCases.getStatementOperation">
-      <metrics statements="53" coveredstatements="53" conditionals="12" coveredconditionals="12" methods="4" coveredmethods="4"/>
-      <file name="GetStatementOperationError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getStatementOperation/GetStatementOperationError.ts">
-        <metrics statements="15" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-      </file>
-      <file name="GetStatementOperationUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getStatementOperation/GetStatementOperationUseCase.ts">
-        <metrics statements="38" coveredstatements="38" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="23" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="24" count="3" type="stmt"/>
-        <line num="25" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="32" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="3" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="modules.users.entities">
-      <metrics statements="40" coveredstatements="40" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="User.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/entities/User.ts">
-        <metrics statements="40" coveredstatements="40" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="6" type="stmt"/>
         <line num="14" count="6" type="stmt"/>
         <line num="15" count="6" type="stmt"/>
         <line num="16" count="6" type="stmt"/>
@@ -348,19 +443,336 @@
         <line num="28" count="6" type="stmt"/>
         <line num="29" count="6" type="stmt"/>
         <line num="30" count="6" type="stmt"/>
-        <line num="31" count="6" type="stmt"/>
-        <line num="32" count="6" type="stmt"/>
-        <line num="33" count="6" type="stmt"/>
-        <line num="34" count="6" type="stmt"/>
-        <line num="35" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="36" count="9" type="stmt"/>
-        <line num="37" count="9" type="stmt"/>
-        <line num="38" count="9" type="stmt"/>
-        <line num="39" count="9" type="stmt"/>
-        <line num="40" count="6" type="stmt"/>
+      </file>
+      <file name="CreateStatementError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/createStatement/CreateStatementError.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="10" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+      </file>
+      <file name="CreateStatementUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/createStatement/CreateStatementUseCase.ts">
+        <metrics statements="42" coveredstatements="42" conditionals="11" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="15" type="stmt"/>
+        <line num="21" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="14" type="cond" truecount="3" falsecount="0"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="15" type="stmt"/>
+        <line num="28" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="15" type="stmt"/>
+        <line num="32" count="15" type="stmt"/>
+        <line num="33" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="12" type="stmt"/>
+        <line num="35" count="12" type="stmt"/>
+        <line num="36" count="12" type="stmt"/>
+        <line num="37" count="12" type="stmt"/>
+        <line num="38" count="12" type="stmt"/>
+        <line num="39" count="15" type="stmt"/>
+        <line num="40" count="15" type="stmt"/>
+        <line num="41" count="15" type="stmt"/>
+        <line num="42" count="9" type="stmt"/>
       </file>
     </package>
-    <package name="modules.users.repositories.in-memory">
+    <package name="src.modules.statements.useCases.getBalance">
+      <metrics statements="67" coveredstatements="67" conditionals="11" coveredconditionals="11" methods="5" coveredmethods="5"/>
+      <file name="GetBalanceController.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getBalance/GetBalanceController.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+      </file>
+      <file name="GetBalanceError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getBalance/GetBalanceError.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+      </file>
+      <file name="GetBalanceUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getBalance/GetBalanceUseCase.ts">
+        <metrics statements="41" coveredstatements="41" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="27" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.statements.useCases.getStatementOperation">
+      <metrics statements="73" coveredstatements="73" conditionals="15" coveredconditionals="15" methods="6" coveredmethods="6"/>
+      <file name="GetStatementOperationController.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getStatementOperation/GetStatementOperationController.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+      </file>
+      <file name="GetStatementOperationError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getStatementOperation/GetStatementOperationError.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+      </file>
+      <file name="GetStatementOperationUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/statements/useCases/getStatementOperation/GetStatementOperationUseCase.ts">
+        <metrics statements="38" coveredstatements="38" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="22" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="38" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.users.entities">
+      <metrics statements="40" coveredstatements="40" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="User.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/entities/User.ts">
+        <metrics statements="40" coveredstatements="40" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="18" count="12" type="stmt"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="22" count="12" type="stmt"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+        <line num="25" count="12" type="stmt"/>
+        <line num="26" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="12" type="stmt"/>
+        <line num="28" count="12" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="31" count="12" type="stmt"/>
+        <line num="32" count="12" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
+        <line num="34" count="12" type="stmt"/>
+        <line num="35" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="44" type="stmt"/>
+        <line num="37" count="44" type="stmt"/>
+        <line num="38" count="44" type="stmt"/>
+        <line num="39" count="44" type="stmt"/>
+        <line num="40" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.users.mappers">
+      <metrics statements="13" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <file name="ProfileMap.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/mappers/ProfileMap.ts">
+        <metrics statements="13" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="0" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="0" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.users.repositories">
+      <metrics statements="29" coveredstatements="29" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
+      <file name="UsersRepository.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/repositories/UsersRepository.ts">
+        <metrics statements="29" coveredstatements="29" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="21" type="stmt"/>
+        <line num="16" count="21" type="stmt"/>
+        <line num="17" count="21" type="stmt"/>
+        <line num="18" count="21" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="26" count="9" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="9" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.users.repositories.in-memory">
       <metrics statements="23" coveredstatements="23" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
       <file name="InMemoryUsersRepository.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/repositories/in-memory/InMemoryUsersRepository.ts">
         <metrics statements="23" coveredstatements="23" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
@@ -389,10 +801,32 @@
         <line num="23" count="15" type="stmt"/>
       </file>
     </package>
-    <package name="modules.users.useCases.authenticateUser">
-      <metrics statements="59" coveredstatements="53" conditionals="7" coveredconditionals="5" methods="3" coveredmethods="2"/>
+    <package name="src.modules.users.useCases.authenticateUser">
+      <metrics statements="78" coveredstatements="76" conditionals="12" coveredconditionals="11" methods="5" coveredmethods="5"/>
+      <file name="AuthenticateUserController.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/authenticateUser/AuthenticateUserController.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+      </file>
       <file name="AuthenticateUserUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/authenticateUser/AuthenticateUserUseCase.ts">
-        <metrics statements="52" coveredstatements="48" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <metrics statements="52" coveredstatements="50" conditionals="7" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -409,68 +843,91 @@
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="24" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="32" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="17" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="23" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="10" type="stmt"/>
+        <line num="26" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
+        <line num="32" count="10" type="cond" truecount="0" falsecount="1"/>
         <line num="33" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
-        <line num="51" count="1" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="36" count="10" type="stmt"/>
+        <line num="37" count="10" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
+        <line num="39" count="10" type="stmt"/>
+        <line num="40" count="10" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="42" count="10" type="stmt"/>
+        <line num="43" count="10" type="stmt"/>
+        <line num="44" count="10" type="stmt"/>
+        <line num="45" count="10" type="stmt"/>
+        <line num="46" count="10" type="stmt"/>
+        <line num="47" count="10" type="stmt"/>
+        <line num="48" count="10" type="stmt"/>
+        <line num="49" count="10" type="stmt"/>
+        <line num="50" count="10" type="stmt"/>
+        <line num="51" count="10" type="stmt"/>
+        <line num="52" count="7" type="stmt"/>
       </file>
       <file name="IncorrectEmailOrPasswordError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/authenticateUser/IncorrectEmailOrPasswordError.ts">
-        <metrics statements="7" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="0"/>
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="3" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
       </file>
     </package>
-    <package name="modules.users.useCases.createUser">
-      <metrics statements="40" coveredstatements="36" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="2"/>
-      <file name="CreateUserError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/createUser/CreateUserError.ts">
-        <metrics statements="7" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="0"/>
+    <package name="src.modules.users.useCases.createUser">
+      <metrics statements="60" coveredstatements="60" conditionals="12" coveredconditionals="12" methods="5" coveredmethods="5"/>
+      <file name="CreateUserController.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/createUser/CreateUserController.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="3" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="6" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="13" count="12" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="18" count="12" type="stmt"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+      </file>
+      <file name="CreateUserError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/createUser/CreateUserError.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="12" type="stmt"/>
       </file>
       <file name="CreateUserUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/createUser/CreateUserUseCase.ts">
-        <metrics statements="33" coveredstatements="31" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <metrics statements="33" coveredstatements="33" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -480,84 +937,278 @@
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="10" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="15" type="stmt"/>
-        <line num="13" count="15" type="stmt"/>
-        <line num="14" count="15" type="stmt"/>
-        <line num="15" count="6" type="stmt"/>
-        <line num="16" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="17" count="12" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="12" type="stmt"/>
-        <line num="19" count="12" type="cond" truecount="0" falsecount="1"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="12" type="stmt"/>
-        <line num="23" count="12" type="stmt"/>
-        <line num="24" count="12" type="stmt"/>
-        <line num="25" count="12" type="stmt"/>
-        <line num="26" count="12" type="stmt"/>
-        <line num="27" count="12" type="stmt"/>
-        <line num="28" count="12" type="stmt"/>
-        <line num="29" count="12" type="stmt"/>
-        <line num="30" count="12" type="stmt"/>
-        <line num="31" count="12" type="stmt"/>
-        <line num="32" count="12" type="stmt"/>
-        <line num="33" count="6" type="stmt"/>
+        <line num="10" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="27" type="stmt"/>
+        <line num="13" count="27" type="stmt"/>
+        <line num="14" count="27" type="stmt"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="16" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="24" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="24" type="stmt"/>
+        <line num="19" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="21" type="stmt"/>
+        <line num="24" count="24" type="stmt"/>
+        <line num="25" count="24" type="stmt"/>
+        <line num="26" count="24" type="stmt"/>
+        <line num="27" count="24" type="stmt"/>
+        <line num="28" count="24" type="stmt"/>
+        <line num="29" count="24" type="stmt"/>
+        <line num="30" count="24" type="stmt"/>
+        <line num="31" count="24" type="stmt"/>
+        <line num="32" count="24" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
       </file>
     </package>
-    <package name="modules.users.useCases.showUserProfile">
-      <metrics statements="29" coveredstatements="29" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3"/>
-      <file name="ShowUserProfileError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/showUserProfile/ShowUserProfileError.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-      </file>
-      <file name="ShowUserProfileUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/showUserProfile/ShowUserProfileUseCase.ts">
-        <metrics statements="22" coveredstatements="22" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+    <package name="src.modules.users.useCases.showUserProfile">
+      <metrics statements="48" coveredstatements="48" conditionals="11" coveredconditionals="11" methods="5" coveredmethods="5"/>
+      <file name="ShowUserProfileController.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/showUserProfile/ShowUserProfileController.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
+        <line num="7" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="14" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+      </file>
+      <file name="ShowUserProfileError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/showUserProfile/ShowUserProfileError.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+      </file>
+      <file name="ShowUserProfileUseCase.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/modules/users/useCases/showUserProfile/ShowUserProfileUseCase.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="13" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes">
+      <metrics statements="69" coveredstatements="69" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="authentication.routes.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/routes/authentication.routes.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/routes/index.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="statements.routes.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/routes/statements.routes.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="userProfile.routes.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/routes/userProfile.routes.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="users.routes.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/routes/users.routes.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="shared.errors">
-      <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+    <package name="src.shared.container">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/shared/container/index.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.errors">
+      <metrics statements="24" coveredstatements="24" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3"/>
       <file name="AppError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/shared/errors/AppError.ts">
-        <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="6" type="stmt"/>
-        <line num="3" count="6" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
+        <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="12" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="6" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="26" type="stmt"/>
+        <line num="8" count="26" type="stmt"/>
+        <line num="9" count="26" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+      </file>
+      <file name="JWTInvalidTokenError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/shared/errors/JWTInvalidTokenError.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="5" count="6" type="stmt"/>
-        <line num="6" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="6" type="stmt"/>
         <line num="7" count="6" type="stmt"/>
-        <line num="8" count="6" type="stmt"/>
-        <line num="9" count="6" type="stmt"/>
-        <line num="10" count="6" type="stmt"/>
+      </file>
+      <file name="JWTTokenMissingError.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/shared/errors/JWTTokenMissingError.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.infra.http.middlwares">
+      <metrics statements="36" coveredstatements="36" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="ensureAuthenticated.ts" path="/home/elena-calcada/Programação/Rocketseat/ignite/nodejs/ignite-nodejs-tests-challenge/src/shared/infra/http/middlwares/ensureAuthenticated.ts">
+        <metrics statements="36" coveredstatements="36" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="20" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="16" count="20" type="stmt"/>
+        <line num="17" count="20" type="stmt"/>
+        <line num="18" count="20" type="stmt"/>
+        <line num="19" count="20" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="16" type="stmt"/>
+        <line num="24" count="16" type="stmt"/>
+        <line num="25" count="16" type="stmt"/>
+        <line num="26" count="16" type="stmt"/>
+        <line num="27" count="16" type="stmt"/>
+        <line num="28" count="16" type="stmt"/>
+        <line num="29" count="16" type="stmt"/>
+        <line num="30" count="16" type="stmt"/>
+        <line num="31" count="16" type="stmt"/>
+        <line num="32" count="16" type="stmt"/>
+        <line num="33" count="20" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="20" type="stmt"/>
       </file>
     </package>
   </project>

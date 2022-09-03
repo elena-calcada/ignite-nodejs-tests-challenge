@@ -29,7 +29,7 @@ describe("Get Balance", () => {
       inMemoryUsersRepository);
   });
 
-  it("should be able to get the balance", async () => {
+  it("should be able to get the balance and view of operations", async () => {
     //Create a User
     const user: ICreateUserDTO = {
       name: "Name User",
@@ -63,6 +63,11 @@ describe("Get Balance", () => {
     const response = await getBalanceUseCase.execute({ user_id: userCreated.id as string });
 
     //Conclusion
+    expect(response.statement.length).toBe(2);
+    expect(response.statement[0].type).toEqual("deposit");
+    expect(response.statement[0].amount).toBe(1000);
+    expect(response.statement[1].type).toEqual("withdraw");
+    expect(response.statement[1].amount).toBe(500);
     expect(response.balance).toBe(500);
   });
 
